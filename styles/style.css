@@ -212,7 +212,7 @@ fieldset {
 }
 
 .content__card-link {
-  margin: 2px;
+  padding: 2px;
   display: block;
   color: #fff;
   text-decoration: none;
@@ -232,6 +232,7 @@ fieldset {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: -1px;
 }
 
 .content__video-card {
