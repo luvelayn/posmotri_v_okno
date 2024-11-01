@@ -134,8 +134,7 @@ fieldset {
   border: 1px solid #fff;
 }
 
-.search-form__checkbox:checked + 
-.search-form__pseudo-checkbox::before {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: "";
   display: block;
   inline-size: 15px;
@@ -143,8 +142,7 @@ fieldset {
   background-color: #fff;
 }
 
-.search-form__checkbox:hover ~ 
-.search-form__label-text {
+.search-form__checkbox:hover ~ .search-form__label-text {
   text-decoration: underline;
 }
 
